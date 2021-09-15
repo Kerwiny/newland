@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:#363f4b; margin:0; padding:0; color:#fff; width:100%; height:auto; font-family:Arial, Helvetica, sans-serif;  line-height:20px;}
+
+#warp{ width:100%; height:auto;}
+.head{ background:#000; height:153px; width:100%;}
+.head-top{ height:21px; width:970px; margin:0 auto; padding:0; text-align:right; padding-right:10px;}
+.head-top a{ color:#fff; text-decoration:none; padding:0 10px;font-size:11px;}
+.head-top a:hover{ color:#fff; text-decoration:underline;}
+.head-bottom{ height:132px; width:980px; margin:0 auto; padding:0;}
+.logo{ height:48px; width:335px; background: url(images/logo-bg.jpg) no-repeat; float:left; padding:42px 0 42px 55px;}
+h1{ margin:0; padding:0; font-size:41px; font-weight:bold;}
+h2{ margin:0; padding:3px 0 0 3px; font-weight:lighter;font-size:12px;}
+.menu{ height:102px; width:567px; background: url(images/head1.jpg) no-repeat; float:right; padding: 30px 23px 0 0; text-align:right;}
+.menu p { margin:0; padding:0 0 30px 0;font-size:11px;}
+.menu ul{ margin:0; padding:0; list-style:none; height:21px; font-size:12px;}
+.menu ul li{ float:left; margin:0 3px 0 0 ; width:91px; height:21px; background: url(images/tab.jpg); padding:0; text-align:center;}
+.menu ul li a{ color:#fff; text-decoration:none;}
+.menu ul li a:hover{ color:#b8e3ff; text-decoration:underline;}
+.menu ul li a.active{ color:#b8e3ff; text-decoration:underline;}
+
+.banner{ width:980px; margin:0 auto; height:223px; background:url(images/banner-bg.jpg) repeat-x;}
+.banner-pic{ float:left; background:url(images/banner-pic.jpg); width:498px; height:223px;}
+.banner-text{ float:right; width:455px; padding:60px 15px 0 10px;}
+h3{ font-size:20px; color:#000; font-weight:lighter; margin:0; padding:0;}
+h4{ font-size:35px; color:#000; margin:0; padding:0; line-height:50px;}
+.banner-text p{ margin:0; margin:0; line-height:10px; color:#58617f; font-size:9px;}
+
+.content{ height:auto; width:950px; margin:0 auto; padding:15px 15px 30px 15px; background:#FFF;}
+.content1{ float:left; width:380px; height:auto;}
+.tit-blue{ height:17px; background:#009fd8; padding:0 15px;  font-size:11px;line-height:16px;}
+.tit-blue p{ margin:0; padding:0; float:left; font-weight:bold;color:#fff; }
+.tit-blue span{ margin:0; padding:0; float:right; display:block; font-size:9px;color:#fff;}
+.tit-blue a{ color:#fff; text-decoration:none;}
+
+.content1-gray{ height:170px; background:#f1f2f2; padding:5px 0 0 3px ;}
+h5{ color:#009fd8; font-size:11px; margin:0; padding:0 0 0 8px; background:url(images/sanjiao.gif) no-repeat 2px 6px;}
+h6{ margin:0;color:#58617f; font-size:11px; padding:0 0 5px 8px; font-weight:bold;}
+.content1-text { background:url(images/home-pic1.jpg) no-repeat; height:115px; margin:0; padding:0 0 0 120px;}
+.content1-text p{ margin:0; padding:0; color:#58617f; font-size:11px; line-height:14px; font-weight:lighter;}
+.content1-text span { margin:0; font-size:11px; padding:0; font-weight:bold; }
+.content1-text span a{ color:#58617f; text-decoration:none;}
+.content1-text span a:hover{ text-decoration: underline;}
+.content1-tit1{ padding:8px 0 0 0; height:36px; border-bottom:2px solid #d1d0d2; width:377px; margin:0; line-height:16px;}
+
+.content2{ float:left; width:350px; margin:0 10px;}
+.content2-text {  background:url(images/home-aboutus-pic1.jpg) repeat-x; padding:15px 10px 0 10px; width:330px;}
+.content2-text p{ margin:0; padding:0; color:#58617f; font-size:11px; line-height:15px; font-weight:lighter;}
+.content2-text img{ padding-top:10px; width:326; height:157;}
+
+.content3{ float:left; width:200px; background:url(images/home-pic3.jpg) bottom no-repeat; height:330px;}
+.content3-tit{ width:198px; height:20px; margin:10px 0 0 0; background:#e6e7e8; padding:0 0 0 2px;}
+.content3-text ul{ margin:0; padding:0 0 0 15px; list-style:none;}
+.content3-text ul li{ background:url(images/square.jpg) no-repeat 0 12px ; padding: 3px 0 0 7px; line-height:16px;}
+.content3-text ul li a{ color:#009fd8; font-size:11px; text-decoration:none;line-height:16px;}
+.content3-text ul li a:hover{ text-decoration:underline;}
+
+.foot{ height:83px; width:980px; background:url(images/foot-bg.jpg) repeat-x; margin:0 auto; padding:25px 0 0 0; text-align:center; color:#58595b; font-size:11px;}
